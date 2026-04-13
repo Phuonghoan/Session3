@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="library_chen" name="Chen-ERD-Library">
+    <mxGraphModel dx="2054" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="book" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=20;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;Sách&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="170" x="180" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="reader" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=20;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;Độc giả&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="170" x="1120" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="borrow" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=18;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;Phiếu mượn sách&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="650" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="isbn" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;u&gt;&lt;font color=&quot;#FFFFFF&quot;&gt;MaISBN&lt;/font&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="105" x="45" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="tensach" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;TenSach&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="185" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="tacgia" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;TacGia&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="95" x="335" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="namxb" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;NamXuatBan&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="135" x="20" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="theloai" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;TheLoai&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="215" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="madocgia" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;u&gt;&lt;font color=&quot;#FFFFFF&quot;&gt;MaDocGia&lt;/font&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="115" x="1300" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="hoten" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;HoTen&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="90" x="1145" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="ngaysinh" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;NgaySinh&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="105" x="1005" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="diachi" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;DiaChi&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="95" x="1020" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="sdt" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;SoDienThoai&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="135" x="1275" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="maphieu" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;u&gt;&lt;font color=&quot;#FFFFFF&quot;&gt;MaPhieu&lt;/font&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="95" x="565" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="ngaymuon" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;NgayMuon&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="105" x="700" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ngaytradk" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;NgayTraDuKien&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="135" x="835" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="trangthai" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;TrangThai&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="105" x="705" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_docgia" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;MaDocGia (FK)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="135" x="500" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="fk_isbn" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;MaISBN (FK)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="125" x="865" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_reader_borrow" parent="1" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=18;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;lập&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="85" x="980" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_book_borrow" parent="1" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;ghi nhận&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="100" x="440" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="isbn" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="book">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="tensach" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="book">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="tacgia" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="book">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="namxb" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="book">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="theloai" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="book">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="madocgia" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="reader">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="hoten" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="reader">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="ngaysinh" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="reader">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="diachi" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="reader">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="sdt" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="reader">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="maphieu" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="borrow">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="ngaymuon" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="borrow">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="ngaytradk" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="borrow">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="trangthai" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="borrow">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="fk_docgia" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="borrow">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="fk_isbn" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="borrow">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" edge="1" parent="1" source="reader" style="endArrow=none;html=1;strokeColor=default;strokeWidth=2;fontSize=16;fontColor=#FFFFFF;" target="rel_reader_borrow" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;1&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" edge="1" parent="1" source="rel_reader_borrow" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;fontSize=16;fontColor=#FFFFFF;" target="borrow" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;N&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" edge="1" parent="1" source="book" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;fontSize=16;fontColor=#FFFFFF;" target="rel_book_borrow" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;1&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" edge="1" parent="1" source="rel_book_borrow" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;fontSize=16;fontColor=#FFFFFF;" target="borrow" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;N&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

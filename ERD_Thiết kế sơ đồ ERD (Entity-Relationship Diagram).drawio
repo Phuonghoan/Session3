@@ -1,0 +1,160 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="shop_chen" name="Chen-ERD-Shop">
+    <mxGraphModel dx="2054" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="customer" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=20;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;Khách hàng&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="190" x="110" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="product" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=20;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;Sản phẩm&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="180" x="1320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="order" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=20;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;Đơn hàng&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="180" x="700" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="orderdetail" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=18;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;&lt;b&gt;Chi tiết đơn hàng&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="230" x="700" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="cust_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;u&gt;&lt;font color=&quot;#FFFFFF&quot;&gt;customer_id&lt;/font&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="125" x="20" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="cust_name" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;ho_ten&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="95" x="155" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cust_email" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;email&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="90" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="cust_phone" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;so_dien_thoai&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="40" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="cust_addr" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;dia_chi&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="95" x="215" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="order_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;u&gt;&lt;font color=&quot;#FFFFFF&quot;&gt;order_id&lt;/font&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="635" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="order_date" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;ngay_tao&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="100" x="790" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="order_total" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;tong_tien&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="105" x="915" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="order_fk" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;customer_id (FK)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="145" x="895" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;u&gt;&lt;font color=&quot;#FFFFFF&quot;&gt;product_id&lt;/font&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="110" x="1495" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_name" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;ten_san_pham&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="125" x="1370" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_price" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;gia&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="70" x="1560" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="prod_type" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;loai_san_pham&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="135" x="1320" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="od_id" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;u&gt;&lt;font color=&quot;#FFFFFF&quot;&gt;order_detail_id&lt;/font&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="130" x="610" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="od_order_fk" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;order_id (FK)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="115" x="640" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="od_product_fk" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;product_id (FK)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="125" x="790" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="od_qty" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;so_luong&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="95" x="980" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="od_price" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=16;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;don_gia&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="90" x="990" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_place" parent="1" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=18;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;đặt&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="85" x="430" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_hasdetail" parent="1" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=18;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;gồm&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="85" x="760" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_productdetail" parent="1" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=18;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;chứa&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="90" x="1120" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="cust_id" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="customer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="cust_name" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="customer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="cust_email" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="customer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="cust_phone" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="customer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="cust_addr" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="customer">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="order_id" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="order_date" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="order_total" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="order_fk" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="order">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="prod_id" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="product">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="prod_name" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="product">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="prod_price" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="product">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="prod_type" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="product">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="od_id" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="orderdetail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="od_order_fk" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="orderdetail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="od_product_fk" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="orderdetail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="od_qty" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="orderdetail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="od_price" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;" target="orderdetail">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" edge="1" parent="1" source="customer" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;fontSize=16;fontColor=#FFFFFF;" target="rel_place" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;1&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" edge="1" parent="1" source="rel_place" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;fontSize=16;fontColor=#FFFFFF;" target="order" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;N&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" edge="1" parent="1" source="order" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;fontSize=16;fontColor=#FFFFFF;" target="rel_hasdetail" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;1&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" edge="1" parent="1" source="rel_hasdetail" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;fontSize=16;fontColor=#FFFFFF;" target="orderdetail" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;N&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5" edge="1" parent="1" source="product" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;fontSize=16;fontColor=#FFFFFF;" target="rel_productdetail" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;1&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r6" edge="1" parent="1" source="rel_productdetail" style="endArrow=none;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeWidth=2;fontSize=16;fontColor=#FFFFFF;" target="orderdetail" value="&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;N&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#FFFFFF;fontSize=15;fontColor=#FFFFFF;" value="&lt;font color=&quot;#FFFFFF&quot;&gt;ERD: Khách hàng 1-N Đơn hàng. Đơn hàng và Sản phẩm có quan hệ N-N, được tách qua Chi tiết đơn hàng. PK gạch chân, FK đặt trong thực thể liên quan.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="1380" x="200" y="900" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
